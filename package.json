@@ -1,0 +1,18 @@
+{
+  "name": "cortico-world-xiangqi-web",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "让大肥鱼在 chess.z3web.cn 上和电脑下中国象棋。",
+  "license": "MIT",
+  "files": ["src", "README.md", "LICENSE"],
+  "main": "./src/index.ts",
+  "keywords": ["cortico-world", "xiangqi"],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "中国象棋"
+  },
+  "dependencies": {
+    "puppeteer-core": "25.12.0"
+  }
+}
